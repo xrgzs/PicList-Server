@@ -1,0 +1,7 @@
+services:
+  piclist-server:
+    build:
+      context: .
+    container_name: piclist-server
+    ports:
+      - "36677:36677"

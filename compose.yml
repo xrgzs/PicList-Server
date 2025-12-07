@@ -1,7 +1,8 @@
 services:
   piclist-server:
-    build:
-      context: .
+    # build:
+    #   context: .
+    images: ghcr.io/xrgzs/piclist-server:latest
     container_name: piclist-server
     ports:
       - "36677:36677"

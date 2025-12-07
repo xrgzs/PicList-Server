@@ -4,9 +4,9 @@ COPY . .
 ENV CGO_ENABLED=0
 # ENV GO111MODULE=on
 # ENV GOPROXY=https://goproxy.cn
-RUN go build -ldflags="-w -s" -trimpath -o /app/piclist-server ./cmd/main.go
+RUN go build -ldflags="-w -s" -trimpath -o /app/xrpic ./cmd/main.go
 
 FROM scratch
 WORKDIR /app
-COPY --from=builder /app/piclist-server .
-ENTRYPOINT ["./piclist-server"]
+COPY --from=builder /app/xrpic .
+ENTRYPOINT ["./xrpic"]

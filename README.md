@@ -1,2 +1,2 @@
-# PicList-Server
+# xrpic
 

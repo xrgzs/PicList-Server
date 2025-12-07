@@ -9,9 +9,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"piclist-server/internal/app/config"
-	"piclist-server/internal/models"
-	"piclist-server/internal/services"
+	"xrpic/internal/app/config"
+	"xrpic/internal/models"
+	"xrpic/internal/services"
 )
 
 type UploadController struct {

@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"net/http"
-	"piclist-server/internal/models"
+	"xrpic/internal/models"
 
 	"github.com/gin-gonic/gin"
 )

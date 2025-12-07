@@ -1,9 +1,9 @@
 services:
-  piclist-server:
+  xrpic:
     # build:
     #   context: .
-    images: ghcr.io/xrgzs/piclist-server:latest
-    container_name: piclist-server
+    images: ghcr.io/xrgzs/xrpic:latest
+    container_name: xrpic
     ports:
       - "36677:36677"
     # volumes:

@@ -1,10 +1,10 @@
 package app
 
 import (
-	"piclist-server/internal/app/config"
-	"piclist-server/internal/controllers"
-	"piclist-server/internal/middlewares"
-	"piclist-server/internal/services"
+	"xrpic/internal/app/config"
+	"xrpic/internal/controllers"
+	"xrpic/internal/middlewares"
+	"xrpic/internal/services"
 
 	"github.com/gin-gonic/gin"
 )

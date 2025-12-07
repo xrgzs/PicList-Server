@@ -2,8 +2,8 @@ package middlewares
 
 import (
 	"net/http"
-	"piclist-server/internal/app/config"
-	"piclist-server/internal/models"
+	"xrpic/internal/app/config"
+	"xrpic/internal/models"
 
 	"github.com/gin-gonic/gin"
 )

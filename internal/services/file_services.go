@@ -10,8 +10,8 @@ import (
 	"net/http"
 	"os"
 	"path/filepath"
-	"piclist-server/internal/app/config"
-	"piclist-server/internal/models"
+	"xrpic/internal/app/config"
+	"xrpic/internal/models"
 	"strings"
 	"time"
 

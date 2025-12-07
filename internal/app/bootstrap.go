@@ -3,7 +3,7 @@ package app
 import (
 	"fmt"
 	"os"
-	"piclist-server/internal/app/config"
+	"xrpic/internal/app/config"
 
 	"github.com/gin-gonic/gin"
 )

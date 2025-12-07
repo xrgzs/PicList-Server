@@ -1,6 +1,6 @@
 package main
 
-import "piclist-server/internal/app"
+import "xrpic/internal/app"
 
 func main() {
 	app.Start()
